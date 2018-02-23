@@ -1,0 +1,11 @@
+input{
+    outline-color: #39dd91;
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px #c4c4c4 solid;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
