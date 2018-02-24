@@ -1,0 +1,30 @@
+.languesList {
+    text-align: start;
+    padding: 0 20%;
+    margin-top: 30%;
+    border-right: 1px solid #58ca9593;
+
+}
+
+
+h3 {
+    font-weight: 700;
+    color: #58ca95;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+}
+li:hover{
+    background-color: #67e9acc6;
+    cursor: pointer;
+
+}
