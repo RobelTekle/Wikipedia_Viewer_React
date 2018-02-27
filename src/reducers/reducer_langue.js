@@ -1,3 +1,10 @@
+import {NEW_LANGUE} from "../actions/action";
+
 export default function(state = "fr", action){
-    return state;
+    switch (action.type) {
+        case NEW_LANGUE:
+            return action.payload;    
+        default:
+            return state;
+    }
 }

@@ -31,8 +31,7 @@ class SearchBar extends Component{
 
 function mapStateToProps(state){
     return {
-        langue: state.langue,
-        resp: state.responce    
+        langue: state.langue
     }
 }
 
