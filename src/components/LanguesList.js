@@ -32,10 +32,13 @@ class LanguesList extends Component{
 
     renderLanguesList(){
         const languesList = _.map(this.state.langues, langue => {
+            //If the language is selected take className="selected"
             let selected = "";
             if(this.props.langue===langue.sign){
                 selected = "selected";
             };
+
+            //Return an array of <li>
             return(
                 <li 
                 key={langue.sign} 
