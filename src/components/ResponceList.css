@@ -1,0 +1,41 @@
+
+.resp{
+    width: 70%;
+    margin: 0 auto 50px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    /* border: 1px solid white; */
+    /* border: 1px black solid; */
+
+}
+
+.resp *{
+    color: rgb(87, 86, 86);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin: 0;
+    
+    
+}
+
+.resp a{
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 65, 65, 0.789);
+    max-width: 25%; 
+    margin-top: 12px;
+}
+
+.resp:hover {
+    background-color: rgba(128, 128, 128, 0.186);
+}
+
+.resp h5{
+    margin-bottom: 8px;
+    color: #58ca95;
+}
+.resp p{
+    line-height: 2;
+    text-align: justify;
+}

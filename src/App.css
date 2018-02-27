@@ -13,9 +13,9 @@
 }
 
 .aside {
-  flex-basis: 20%;
+  width: 20%;
 }
 
 .main {
-  flex-grow: 1;
+  width: 80%;
 }
